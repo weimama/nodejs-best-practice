@@ -1,6 +1,7 @@
 # nodejs-best-practice
 nodejs best practice
 
+## large features should be seperated into another module.
 ## checking empty
 ```javascript
 function isEmpty(obj) {
