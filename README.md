@@ -10,7 +10,8 @@ function isEmpty(obj) {
   return false;
 }
 ```
-## use toString method before use split method
+## add type checking or conversion for input parameters
+### use toString method before use split method
 ```javascript
 var s = s && s.toString();
 var sarr = s.split(':');
