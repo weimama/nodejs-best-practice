@@ -15,3 +15,15 @@ function isEmpty(obj) {
 var s = s && s.toString();
 var sarr = s.split(':');
 ```
+
+## prefer to use self rather than this
+```javascript
+function fun1() {
+  var self = this;
+  self.counter = 0;
+  setInterval(function() {
+     selft.count = (self.counter + 1) % 100;
+  }, 1000);
+}
+```
+
