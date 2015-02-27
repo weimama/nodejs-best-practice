@@ -11,6 +11,11 @@ function isEmpty(obj) {
   return false;
 }
 ```
+## convert object to string with `util.inspect(object)` rather that `JSON.stringify(object)` to avoid circular object error
+```javascript
+var util = require('util');
+util.inspect(object)
+```
 ## add type checking or conversion for input parameters
 ### use toString method before use split method
 ```javascript
