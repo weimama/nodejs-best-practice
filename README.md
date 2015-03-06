@@ -33,4 +33,13 @@ function fun1() {
   }, 1000);
 }
 ```
+## use `module.exports` rather than `export`
+
+## 
+```
+//good
+module.exports.function = function1
+//bad
+module.exports = function
+```
 
