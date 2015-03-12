@@ -35,11 +35,27 @@ function fun1() {
 ```
 ## use `module.exports` rather than `export`
 
-## 
+##  exports with functions or properties
 ```
 //good
 module.exports.function = function1
 //bad
 module.exports = function
 ```
+
+## mocha unit test
+use test folder rather than tests folder
+
+add `--recursive` in file test/mocha.opts
+```javascript
+cat test/mocha.opts
+--recursive
+```
+
+
+
+
+
+
+
 
