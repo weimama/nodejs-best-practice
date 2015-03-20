@@ -23,6 +23,11 @@ var s = s && s.toString();
 var sarr = s.split(':');
 ```
 
+## Use hippie and supertest for testing
+
+## use nock to mock http test
+
+
 ## prefer to use self rather than this
 ```javascript
 function fun1() {
